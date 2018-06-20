@@ -67,7 +67,7 @@ namespace CLR1 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1064, 681);
+			this->ClientSize = System::Drawing::Size(1264, 681);
 			this->Controls->Add(this->StartApplicationButton);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Name = L"StartScreen";
