@@ -76,5 +76,9 @@ namespace CLR1 {
 
 		}
 #pragma endregion
+	private: System::Void StartApplicationButton_Click(System::Object^  sender, System::EventArgs^  e)
+	{
+
+	}
 	};
 }
