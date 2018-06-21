@@ -38,7 +38,7 @@ namespace CLR1 {
 	private: System::Windows::Forms::Button^  IncorrectButton1;
 
 	private: System::Windows::Forms::Label^  ControlleurLabel4;
-	private: System::Windows::Forms::Label^  label1;
+
 	private: System::Windows::Forms::Label^  SchoonLabel1;
 
 
@@ -63,7 +63,6 @@ namespace CLR1 {
 			this->CorrectButton1 = (gcnew System::Windows::Forms::Button());
 			this->IncorrectButton1 = (gcnew System::Windows::Forms::Button());
 			this->ControlleurLabel4 = (gcnew System::Windows::Forms::Label());
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->SchoonLabel1 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
@@ -99,15 +98,6 @@ namespace CLR1 {
 			this->ControlleurLabel4->TabIndex = 4;
 			this->ControlleurLabel4->Text = L"De Viespeuken Controlleur";
 			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(0, 0);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(35, 13);
-			this->label1->TabIndex = 5;
-			this->label1->Text = L"label1";
-			// 
 			// SchoonLabel1
 			// 
 			this->SchoonLabel1->AutoSize = true;
@@ -124,7 +114,6 @@ namespace CLR1 {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1264, 681);
 			this->Controls->Add(this->SchoonLabel1);
-			this->Controls->Add(this->label1);
 			this->Controls->Add(this->ControlleurLabel4);
 			this->Controls->Add(this->IncorrectButton1);
 			this->Controls->Add(this->CorrectButton1);
@@ -132,6 +121,7 @@ namespace CLR1 {
 			this->Name = L"ResultCleanScreen";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"ResultCleanScreen";
+			this->Load += gcnew System::EventHandler(this, &ResultCleanScreen::ResultCleanScreen_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -143,5 +133,7 @@ namespace CLR1 {
 	private: System::Void IncorrectButton2_Click(System::Object^  sender, System::EventArgs^  e) {
 		
 	}
+private: System::Void ResultCleanScreen_Load(System::Object^  sender, System::EventArgs^  e) {
+}
 };
 }
