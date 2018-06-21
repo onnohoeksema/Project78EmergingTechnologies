@@ -96,7 +96,7 @@ namespace CLR1 {
 			this->ControlleurLabel4->Name = L"ControlleurLabel4";
 			this->ControlleurLabel4->Size = System::Drawing::Size(896, 82);
 			this->ControlleurLabel4->TabIndex = 4;
-			this->ControlleurLabel4->Text = L"De Viespeuken Controlleur";
+			this->ControlleurLabel4->Text = L"De Viespeuken Controleur";
 			// 
 			// SchoonLabel1
 			// 

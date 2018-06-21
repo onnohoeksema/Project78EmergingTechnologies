@@ -81,9 +81,9 @@ namespace CLR1 {
 			this->ControlleurLabel2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 54));
 			this->ControlleurLabel2->Location = System::Drawing::Point(190, 36);
 			this->ControlleurLabel2->Name = L"ControlleurLabel2";
-			this->ControlleurLabel2->Size = System::Drawing::Size(896, 82);
+			this->ControlleurLabel2->Size = System::Drawing::Size(879, 82);
 			this->ControlleurLabel2->TabIndex = 2;
-			this->ControlleurLabel2->Text = L"De Viespeuken Controlleur";
+			this->ControlleurLabel2->Text = L"De Viespeuken Controleur";
 			this->ControlleurLabel2->Click += gcnew System::EventHandler(this, &ActiveScreen::ControlleurLabel2_Click);
 			// 
 			// SessionLabel1

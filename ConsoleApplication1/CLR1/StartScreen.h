@@ -77,7 +77,8 @@ namespace CLR1 {
 			this->ControlleurLabel1->Name = L"ControlleurLabel1";
 			this->ControlleurLabel1->Size = System::Drawing::Size(896, 82);
 			this->ControlleurLabel1->TabIndex = 3;
-			this->ControlleurLabel1->Text = L"De Viespeuken Controlleur";
+			this->ControlleurLabel1->Text = L"De Viespeuken Controleur";
+			this->ControlleurLabel1->Click += gcnew System::EventHandler(this, &StartScreen::ControlleurLabel1_Click);
 			// 
 			// StartScreen
 			// 
@@ -103,6 +104,8 @@ namespace CLR1 {
 		ac1->ShowDialog();
 	}
 			 
+	private: System::Void ControlleurLabel1_Click(System::Object^  sender, System::EventArgs^  e) {
+	}
 	};
 	
 }
