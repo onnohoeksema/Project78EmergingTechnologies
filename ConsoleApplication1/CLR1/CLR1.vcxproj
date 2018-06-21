@@ -133,14 +133,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ActiveScreen.cpp" />
+    <ClCompile Include="ResultCleanScreen.cpp" />
+    <ClCompile Include="ResultDirtyScreen.cpp" />
     <ClCompile Include="StartScreen.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ActiveScreen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ResultCleanScreen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ResultDirtyScreen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="StartScreen.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ActiveScreen.resx">
+      <DependentUpon>ActiveScreen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultCleanScreen.resx">
+      <DependentUpon>ResultCleanScreen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultDirtyScreen.resx">
+      <DependentUpon>ResultDirtyScreen.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.h</DependentUpon>
     </EmbeddedResource>
